@@ -14,7 +14,7 @@
 
 - potentiometer_circuit.png : potentiometer를 A2핀, LED를 9핀에 연결하고 potentiometer에 따라 LED의 밝기가 변하도록 회로를 구성하였습니다.
 
-- potentiometer_code.txt : Potentiometer를 A2핀, LED를 9핀으로 설정하고 analogRead()로 0~1023의 Potentiometer 값을 읽고 그 값을 ESP32의 아날로그 출력 크기에 맞게 0~255로 값의 범위를 매핑했습니다. 실행 후 회로에서 Potentiometer를 돌리면 매핑된 값에 맞게 정해진 LED의 출력이 나오게 됩니다.
+- potentiometer_code.txt : Potentiometer를 A2핀, LED를 9핀으로 설정하고 analogRead()로 0-1023의 Potentiometer 값을 읽고 그 값을 ESP32의 아날로그 출력 크기에 맞게 0-255로 값의 범위를 매핑했습니다. 실행 후 회로에서 Potentiometer를 돌리면 매핑된 값에 맞게 정해진 LED의 출력이 나오게 됩니다.
 
 
 
